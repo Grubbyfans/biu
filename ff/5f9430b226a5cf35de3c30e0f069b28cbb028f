@@ -1,0 +1,14 @@
+.gitignore
+  h_7f20b2a03eb3b6 113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ff5f9430b226a5cf35de3c30e0f069b28cbb028f",
+  "prompts": {},
+  "humans": {
+    "h_7f20b2a03eb3b6": {
+      "author": "周康 <1412873631@qq.com>"
+    }
+  }
+}

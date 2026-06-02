@@ -25,6 +25,7 @@ import OpenPlaylistDrawerButton from "../open-playlist-drawer-button";
 import WindowAction from "../window-action";
 import { useGlassmorphism } from "./glassmorphism";
 import PageList from "./page-list";
+import RelatedRecommend from "./related-recommend";
 import FullScreenPlayerSettingsPanel from "./settings-panel";
 
 const platform = window.electron.getPlatform();
@@ -379,6 +380,18 @@ const FullScreenPlayer = () => {
                       barColor={spectrumColor || "currentColor"}
                     />
                   </div>
+                </div>
+              )}
+
+              {isUiVisible && !isLocal && (playItem.bvid || playItem.aid) && (
+                <div
+                  className="window-no-drag absolute inset-x-0 z-30"
+                  style={{
+                    bottom: controlsHeight + (showSpectrum ? 76 : 16),
+                    transition: "bottom 300ms ease",
+                  }}
+                >
+                  <RelatedRecommend playItem={playItem} />
                 </div>
               )}
 

@@ -1,0 +1,24 @@
+src/components/full-screen-player/index.tsx
+  s_b305b5956a0055::t_a6d3a82ce5e676 28,386-394
+src/service/web-interface-archive-related.ts
+  s_b305b5956a0055::t_a6d3a82ce5e676 1-32
+src/components/full-screen-player/related-recommend.tsx
+  s_b305b5956a0055::t_f480dc7a70bfef 213-215
+  s_b305b5956a0055::t_a6d3a82ce5e676 1-212,216-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "edf53fb98f9311b4a54045da644aa40f87e33c25",
+  "prompts": {},
+  "sessions": {
+    "s_b305b5956a0055": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e861f-b7e5-7931-9866-68ea499648e9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "周康 <1412873631@qq.com>"
+    }
+  }
+}
